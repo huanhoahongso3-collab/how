@@ -3,6 +3,7 @@ name: Upload to Gemfury
 on:
   release:
     types: [published]
+  workflow_dispatch:  # This allows you to click "Run workflow" manually
 
 jobs:
   release-build:
@@ -23,7 +24,8 @@ jobs:
         env:
           FURY_TOKEN: ${{ secrets.GEMFURY_PUSH_TOKEN }}
         run: |
-          # Uploading all built files (.whl and .tar.gz)
+          # The -f flag in curl makes it fail the step if the server returns an error
           for file in dist/*; do
-            curl -F package=@$file https://$FURY_TOKEN@push.fury.io/dhp5621/
+            echo "Uploading $file..."
+            curl -f -F package=@$file https://$FURY_TOKEN@push.fury.io/dhp5621/
           done
