@@ -4,8 +4,9 @@
  <h1 align="center">How-CLI</h1>
     <p align="center">A Terminal-Based Assistant for Generating Shell Commands</p>
 
-**How-CLI** is a terminal-based assistant that generates precise shell commands for any task you ask. Powered by Google Gemini’s generative AI, it provides context-aware, executable shell commands tailored to your current environment.
+**How-CLI** is a terminal-based assistant that generates precise shell commands for any task you ask. Powered by Groq, it provides context-aware, executable shell commands tailored to your current environment.
 
+This project is forked from original repo: https://github.com/Ademking/how.
 ---
 
 ## Features
@@ -35,7 +36,7 @@ Think of it as a weekend hack.
 ## Installation
 
 ```bash
-pip install how-cli-assist
+pip install how-cli-groq
 ```
 
 ## Demo
@@ -58,7 +59,7 @@ how to list all files modified in the last 7 days
 how --history
 
 # Set or update your Google Gemini API key
-how --api-key YOUR_GEMINI_API_KEY_HERE
+how --api-key YOUR_GROQ_API_KEY_HERE
 ```
 
 ## Options
