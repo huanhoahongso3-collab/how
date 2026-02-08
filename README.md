@@ -16,7 +16,7 @@ This project is forked from original repo: https://github.com/Ademking/how.
 - **Command history** logging for easy reference.
 - Clipboard support: copies generated commands automatically.
 - Typewriter effect for visually appealing output (optional).
-- Configurable Google Gemini API key.
+- Configurable Groq API key.
 - Handles API errors, content blocks, and timeouts gracefully.
 
 ---
@@ -58,7 +58,7 @@ how to list all files modified in the last 7 days
 # Show your previous questions and commands
 how --history
 
-# Set or update your Google Gemini API key
+# Set or update your Groq API key
 how --api-key YOUR_GROQ_API_KEY_HERE
 ```
 
