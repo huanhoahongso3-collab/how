@@ -24,7 +24,7 @@ This project is forked from original repo: https://github.com/Ademking/how.
 ### ⚠️ Disclaimer:
 
 ```
-Yeah, I know... It’s a Gemini wrapper.
+Yeah, I know... It’s a Groq wrapper.
 I know it's not the next Warp AI terminal or some fancy LLM-based shell integration with auto-completion and context persistence...
 I know it's “yet another CLI tool” 
 and yes, I'm painfully aware that wrapping an API and printing stuff in the terminal isn't groundbreaking computer science...
