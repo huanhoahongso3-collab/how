@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "how-cli-groq"
-version = "1.0.0"
+version = "1.0.1"
 description = "Terminal assistant generating accurate shell commands via Groq. Vibe coded by AI from original project"
 authors = [{ name = "huanhoahongso3-collab" }]
 readme = "README.md"
